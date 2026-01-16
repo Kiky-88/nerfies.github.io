@@ -138,7 +138,7 @@
       <!-- Abstract. -->
       <div class="columns is-centered has-text-centered">
         <div class="column is-12">
-          <h2 class="title is-3">Abstract</h2>
+          <h2 class="title is-3" style="margin-bottom: 0.5rem;">Abstract</h2>
           <div style="background-color: #f5f5f5; padding: 20px; border-radius: 10px;">
             <div class="content has-text-justified">
               <p>
@@ -172,9 +172,9 @@
       <!--/ Abstract. -->
 
       <!-- Task Settings. -->
-      <div class="columns is-centered has-text-centered">
+      <div class="columns is-centered has-text-centered" style="margin-top: 3rem;">
         <div class="column is-12">
-          <h2 class="title is-3">Task Settings</h2>
+          <h2 class="title is-3" style="margin-bottom: 0.5rem;">Task Settings</h2>
           <div class="content has-text-justified">
             <!-- Replace with your actual image path -->
             <img src="./image/task_example.png" alt="Task Settings" style="width: 100%; margin-bottom: 20px;">
@@ -187,9 +187,9 @@
       <!--/ Task Settings. -->
 
       <!-- Experiment. -->
-      <div class="columns is-centered has-text-centered">
+      <div class="columns is-centered has-text-centered" style="margin-top: 3rem;">
         <div class="column is-12">
-          <h2 class="title is-3">Experiment</h2>
+          <h2 class="title is-3" style="margin-bottom: 0.5rem;">Experiment</h2>
           <div class="content has-text-justified">
             <img src="./image/experiment1.png" alt="Experiment" style="width: 100%; margin-bottom: 20px;">
           </div>
@@ -197,119 +197,120 @@
       </div>
       <!--/ Experiment. -->
 
-      <!-- Paper video. -->
-      <!-- <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          <h2 class="title is-3">Video</h2>
-          <div class="publication-video">
-            <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0" frameborder="0"
-              allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <!-- Comparison. -->
+      <div class="columns is-centered has-text-centered" style="margin-top: 3rem;">
+        <div class="column is-12">
+          <h2 class="title is-3" style="margin-bottom: 0.5rem;">Comparison of Efficiency Paradigms in
+            Vision-Language-Action Models</h2>
+          <div class="content has-text-justified">
+            <img src="./image/comparison.png" alt="Efficiency Comparison" style="width: 100%; margin-bottom: 20px;">
           </div>
         </div>
-      </div> -->
-      <!--/ Paper video. -->
-      <!-- </div>
-  </section> -->
+      </div>
+      <!--/ Comparison. -->
+
+    </div>
+  </section>
 
 
-      <section class="section">
-        <div class="container is-max-desktop">
+  <section class="section">
+    <div class="container is-max-desktop">
 
-          <div class="columns is-centered">
-            <div class="column is-full-width">
-              <h2 class="title is-3 has-text-centered">Method</h2>
-              <div class="content has-text-justified">
-                <p>
-                  Qualitative and quantitative results demonstrating the efficiency and accuracy of QuantVLA will be
-                  presented here.
-                  The method relies on post-training quantization to reduce model size while maintaining VLA
-                  capabilities.
-                </p>
-                <!-- Add Method diagram image here -->
-                <img src="./image/pipeline1.svg" alt="Method Overview" style="width:100%">
-              </div>
-            </div>
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-3 has-text-centered">Method</h2>
+          <div class="content has-text-justified">
+            <p>
+              Qualitative and quantitative results demonstrating the efficiency and accuracy of QuantVLA will be
+              presented here.
+              The method relies on post-training quantization to reduce model size while maintaining VLA
+              capabilities.
+            </p>
+            <!-- Add Method diagram image here -->
+            <img src="./image/pipeline1.svg" alt="Method Overview" style="width:100%">
           </div>
-
-          <div class="columns is-centered">
-            <div class="column is-full-width">
-              <h2 class="title is-3">Results</h2>
-              <div class="content has-text-justified">
-                <p>
-                  We compare QuantVLA against full-precision baselines on the Libero and OpenVLA benchmarks.
-                </p>
-                <!-- Add Results table/image here -->
-              </div>
-            </div>
-          </div>
-
-
-          <!-- Concurrent Work. -->
-          <div class="columns is-centered">
-            <div class="column is-full-width">
-              <h2 class="title is-3">Related Links</h2>
-
-              <div class="content has-text-justified">
-                <p>
-                  There's a lot of excellent work that was introduced around the same time as ours.
-                </p>
-                <p>
-                <p>
-                  We build upon recent advances in Vision-Language Models (VLMs) and Model Quantization.
-                  Relevant works include OpenVLA, RT-2, and various post-training quantization methods.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!--/ Concurrent Work. -->
-
         </div>
-      </section>
+      </div>
+
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-3">Results</h2>
+          <div class="content has-text-justified">
+            <p>
+              We compare QuantVLA against full-precision baselines on the Libero and OpenVLA benchmarks.
+            </p>
+            <!-- Add Results table/image here -->
+          </div>
+        </div>
+      </div>
 
 
-      <section class="section" id="BibTeX">
-        <div class="container is-max-desktop content">
-          <h2 class="title">BibTeX</h2>
-          <pre><code>@article{quantvla2026,
+      <!-- Concurrent Work. -->
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-3">Related Links</h2>
+
+          <div class="content has-text-justified">
+            <p>
+              There's a lot of excellent work that was introduced around the same time as ours.
+            </p>
+            <p>
+            <p>
+              We build upon recent advances in Vision-Language Models (VLMs) and Model Quantization.
+              Relevant works include OpenVLA, RT-2, and various post-training quantization methods.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--/ Concurrent Work. -->
+
+    </div>
+  </section>
+
+
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@article{quantvla2026,
   author    = {Anonymous},
   title     = {QuantVLA: Quantizing Vision-Language-Action Models},
   journal   = {CVPR Submission},
   year      = {2026},
 }</code></pre>
-        </div>
-      </section>
+    </div>
+  </section>
 
 
-      <footer class="footer">
-        <div class="container">
-          <div class="content has-text-centered">
-            <a class="icon-link" href="#" class="external-link" disabled>
-              <i class="fas fa-file-pdf"></i>
-            </a>
-            <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
-              <i class="fab fa-github"></i>
-            </a>
-          </div>
-          <div class="columns is-centered">
-            <div class="column is-8">
-              <div class="content">
-                <p>
-                  This website is licensed under a <a rel="license"
-                    href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
-                    Commons Attribution-ShareAlike 4.0 International License</a>.
-                </p>
-                <p>
-                  This means you are free to borrow the <a href="https://github.com/nerfies/nerfies.github.io">source
-                    code</a> of this website,
-                  we just ask that you link back to this page in the footer.
-                  Please remember to remove the analytics code included in the header of the website which
-                  you do not want on your website.
-                </p>
-              </div>
-            </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <a class="icon-link" href="#" class="external-link" disabled>
+          <i class="fas fa-file-pdf"></i>
+        </a>
+        <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This website is licensed under a <a rel="license"
+                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+                Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+            <p>
+              This means you are free to borrow the <a href="https://github.com/nerfies/nerfies.github.io">source
+                code</a> of this website,
+              we just ask that you link back to this page in the footer.
+              Please remember to remove the analytics code included in the header of the website which
+              you do not want on your website.
+            </p>
           </div>
         </div>
-      </footer>
+      </div>
+    </div>
+  </footer>
 
 </body>
 
